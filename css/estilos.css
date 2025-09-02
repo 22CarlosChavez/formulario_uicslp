@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(255, 0, 204, 0.845);
+    font-family: arial;
+}
+form{
+    background-color: white;
+    width: 35%;
+    margin: auto;
+    border-radius: 10px;
+}
+label{
+    font-size: 13px;
+}
+.campos, h1, p{
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+p{
+    font-size: 13px;
+}
+h1{
+    padding-top: 30px;
+    color: rgba(255, 0, 204, 0.845);
+}
+span{
+    color: rgba(255, 0, 204, 0.845);
+}
+.campo{
+    display: block;
+    width: 320px;
+    height: 25px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid rgba(225, 0, 204, 0.845);
+    margin-top: 5px;
+}
+.textarea{
+    height: 60px;
+    border: 1px solid rgba(225, 0, 204, 0.845);
+}
+.btnEnviar{
+    width: 328px;
+    background-color: rgba(225, 0, 204, 0.845);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
